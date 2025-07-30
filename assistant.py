@@ -125,7 +125,7 @@ def main():
                     rating = int(input("Please rate this assistant (1 to 5): "))
                     if 1 <= rating <= 5:
                         break
-else:
+                    else:
                         print("Rating must be between 1 and 5.")
                 except ValueError:
                     print("Please enter a number.")
